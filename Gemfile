@@ -1,4 +1,3 @@
 source "http://rubygems.org"
-
-gem install 'json'
-gem install 'mail'
+gem "json"
+gem "mail"
