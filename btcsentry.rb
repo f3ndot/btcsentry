@@ -24,7 +24,6 @@ class BTCSentry
 
   def fetch_api_data
     unless last_fetched.nil?
-      puts "A"
       if (Time.now.getutc - last_fetched) < SLEEP_INTERVAL
         t = Time.now.getutc - last_fetched
         puts "Warning! It's been #{t.ago} since the last API fetch. Serving old data.".yellow
