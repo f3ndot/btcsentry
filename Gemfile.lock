@@ -1,6 +1,8 @@
 GEM
   remote: http://rubygems.org/
   specs:
+    ago (0.1.5)
+    colorize (0.5.8)
     i18n (0.6.0)
     json (1.7.3)
     mail (2.4.4)
@@ -17,5 +19,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  ago
+  colorize
   json
   mail
